@@ -6,8 +6,7 @@
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Project Objective](#project-objective)
-- [Data Source](#data-source)
+- [Dataset Overview](#dataset-overview)
 - [Data Preprocessing](#data-preprocessing)
 - [Model Building](#model-building)
 - [Feature Importance](#feature-importance)
@@ -16,27 +15,34 @@
 
 
 ## Project Overview
-Customer churn (also called customer attrition or customer turnover) is the percentage of customers that stopped 
-using a company's product or service (for any reason) within a specified timeframe. This is one of the biggest 
-expenditures for organizations. The purpose of this project was to develop an effective Machine Learning model 
-to identify customers at risk of churning. By applying advanced analytics and machine learning techniques to the 
-provided dataset, the goal is to offer actionable recommendations to the company, enabling them to implement targeted 
-retention strategies. This will help reduce customer attrition, enhance customer loyalty, and maintain a competitive 
-edge over in the industry.
-
-
-## Project Objective
-The goal is to accurately predict which customers are likely to churn (i.e., discontinue their services) by analyzing 
-historical customer data. Also, to identify the key indicators of churn and recommend retention strategies.
+Disease condition related with heart are some of the leading cause of morbidity and mortality. The purpose of this project was to develop an effective Machine Learning model 
+to identify patient at risk of heart disease using some health indices and the patient's demography.. By applying advanced analytics and machine learning techniques to the 
+provided dataset.
 
 ![Heart Picture](image_2.jpg)
 
 
-## Data Source
-The dataset for this project was sourced from Kaggle. It includes various features such as gender, SeniorCitizen status,
-Partner, Dependents, tenure, PhoneService, MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, 
-TechSupport, StreamingTV, StreamingMovies, Contract type, PaperlessBilling, PaymentMethod, MonthlyCharges, TotalCharges, 
-and Churn. The target variable is Churn, where 1 represents churned, and 0 represents not churned
+## Dataset Overview
+The dataset for this project contains features such as age, gender, chest pain type, resting blood pressure, cholestrol, and other features.
+Below is ths Data Dictionary and screenshot of the dataset
+
+- **Data Dictionary**
+- age - age of the patient in years
+- sex - (1= male; 0= female)
+- cp - chest pain type (1= typical angina; 2= atypical angina; 3= non-anginal pain; 4= asymptomatic)
+- trestbps - resting blood pressure (in mmHg)
+- chol - serum cholesterol (in mg/dl)
+- fbs - fasting blood sugar (value >120mg/dl)(1= true; 0= false)
+- restecg - resting electrocardiogram (1= normal, 0= abnormal)
+- thalach - maximum heart rate achieved (in beats/min)
+- exang - exercise induced angina (1= yes; 0= no)
+- oldpeak - ST depression induced by exercise relative to rest
+- slope - the slope of the peak exercise ST segment (0= downsloping; 1= Flat; 2= upsloping)
+- ca - number of major vessels (scored 0-3)
+- thal - patient had thalassemia defect or not (1= normal; 2= fixed defect; 3= reversible defect)
+- target - patient had the disease or not (1= yes; 0= no)
+
+![Data Overview](#image_3)
 
 
 ## Data Preprocessing
@@ -48,13 +54,13 @@ Data preprocessing was done to prepare the data for modelling
 
 ## Model Building
 Eight machine learning classifiers:
--Logistic Regression
--SGD Classifier
--K-Nearest Neighbors (KNN)
--Random Forest Classifier
--Support Vector Machine (SVM)
--Naive Bayes
--Decision Tree 
+- Logistic Regression
+- SGD Classifier
+- K-Nearest Neighbors (KNN)
+- Random Forest Classifier
+- Support Vector Machine (SVM)
+- Naive Bayes
+- Decision Tree 
 - XGBoost were imported
 The classifiers were trained on the training dataset, and evaluated on the test subset of the dataset.
 
