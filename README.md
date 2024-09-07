@@ -69,7 +69,7 @@ The classifiers were trained on the training dataset, and evaluated on the test 
 The following table lists the importance scores of various features used in the model. Higher positive values indicate greater importance 
 in the model's predictions, while negative values suggest a lesser contribution or inverse relationship.
 
-![Feature Importance](image_4.jpg)
+![Feature Importance](image_5.jpg)
 
 - **High Positive Scores**: Features like age, ST depression, and chest pain type are crucial for the model's predictions and should be prioritized in clinical settings.
 - **Moderate Scores**: Number of major vessels and exercise-induced angina have a moderate impact and are important but not as critical as the top features.
