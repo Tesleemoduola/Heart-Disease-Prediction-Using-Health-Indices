@@ -38,7 +38,7 @@ Below is ths Data Dictionary and screenshot of the dataset
 - thal - patient had thalassemia defect or not (1= normal; 2= fixed defect; 3= reversible defect)
 - target - patient had the disease or not (1= yes; 0= no)
 
-![Data Overview](#image_3.jpg)
+![Data Overview](image_3.jpg)
 
 
 ## Data Preprocessing
