@@ -1,4 +1,4 @@
-# Customer Product Review Sentiment Analysis
+# Heart Disease Prediction Using Health Indices
 
 ![Image of the Project](image_1.jpg)
 
