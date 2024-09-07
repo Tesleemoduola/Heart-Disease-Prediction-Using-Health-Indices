@@ -1,9 +1,5 @@
 # Heart Disease Prediction Using Health Indices
 
-![Image of the Project](image_1.jpg)
-
-
-
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset Overview](#dataset-overview)
@@ -19,7 +15,7 @@ Disease condition related with heart are some of the leading cause of morbidity 
 to identify patient at risk of heart disease using some health indices and the patient's demography.. By applying advanced analytics and machine learning techniques to the 
 provided dataset.
 
-![Heart Picture](image_2.jpg)
+![Heart Picture](image_1.jpg)
 
 
 ## Dataset Overview
@@ -42,7 +38,7 @@ Below is ths Data Dictionary and screenshot of the dataset
 - thal - patient had thalassemia defect or not (1= normal; 2= fixed defect; 3= reversible defect)
 - target - patient had the disease or not (1= yes; 0= no)
 
-![Data Overview](#image_4.jpg)
+![Data Overview](#image_3.jpg)
 
 
 ## Data Preprocessing
@@ -83,10 +79,10 @@ The performance of the models was evaluated on the test dataset using metrics su
 Below is a screenshot of the evaluation reports and Naive bayes confusion matrix from the notebook:
 ![Evaluation Report](image_6.jpg)
 
-![Hyperparameter Evaluation report](image_7.jpg)
+![NB CM report](image_7.jpg)
 
 
 ## Model Deployment
 The model was deployed using Streamlit
 
-![Model Picture](image.8.jpg)
+![Model Picture](image_8.jpg)
