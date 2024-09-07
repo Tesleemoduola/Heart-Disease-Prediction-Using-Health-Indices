@@ -78,7 +78,7 @@ Overall, age, ST depression, and chest pain are the most influential, while rest
 The performance of the models was evaluated on the test dataset using metrics such as accuracy, precision, recall, and F1-score.
 Below is a screenshot of the evaluation reports and Naive bayes confusion matrix from the notebook:
 
-![Evaluation Report](image_6.jpg)
+![Evaluation Report](image_4.jpg)
 
 ![NB CM report](image_7.jpg)
 
