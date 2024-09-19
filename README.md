@@ -44,7 +44,7 @@ Below is ths Data Dictionary and screenshot of the dataset
 ## Data Preprocessing
 Data preprocessing was done to prepare the data for modelling
 - **Handle missing values**: Ensured that all missing values in the dataset were properly addressed.
-- **Remove duplicates**: Checked for duplicate values to avoid redundancy. 1 duplicate was found in the datasetand it was dropped
+- **Remove duplicates**: Checked for duplicate values to avoid redundancy. 1 duplicate was found in the dataset and it was dropped
 - **Scale numerical variables with outliers**: resting_blood_pressure, cholesterol, max_heart_rate_achieved, and thalassemia were scaled to ensure consistent scaling.
 
 
@@ -58,7 +58,7 @@ Eight machine learning classifiers:
 - Naive Bayes
 - Decision Tree 
 - XGBoost were imported
-The classifiers were trained on the training dataset, and evaluated on the test subset of the dataset.
+- The classifiers were trained on the training dataset, and evaluated on the test subset of the dataset.
 
 
 ## Feature Importance
